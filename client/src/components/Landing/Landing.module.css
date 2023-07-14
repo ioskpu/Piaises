@@ -1,0 +1,61 @@
+.contenedor {
+  position: relative;
+  height: 32em;
+}
+
+.tittle {
+  font-size: 60px;
+  font-style: italic;
+  padding: 0.5em;
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+  right: 42%;
+  margin: auto;
+  padding: 0.6em 1.2em;
+  font-size: 1.3em;
+}
+.text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 0;
+  border-radius: 5px;
+  padding: 1.2em;
+  font-weight: 500;
+}
+.text span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.text_secundario {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  background-color: rgb(119, 68, 35, 0.15);
+  border-radius: 11px;
+  font-size: 13px;
+  padding: 1em;
+}
+.text_secundario p {
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.hexagon__sector:before, .hexagon__sector:after{
+  animation-name: ripple;
+  background-color: currentColor;
+  border-radius: 0.1em;
+  content: "";
+  display: block;
+  transform-origin: 0.1em 0.1em;
+}
